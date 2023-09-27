@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Imagens/imagem_fundo_controle.jpg');
+    background-size: cover; /* Para evitar a repetição da imagem */
+    background-repeat: no-repeat; /* Impedindo a repetição da imagem */
+}
+
+.container {
+    background-color: whitesmoke;
+    padding: 6px;
+    width: 650px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centralize verticalmente o conteúdo */
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.title {
+    background: linear-gradient(to right, #701198, #9400d3, #701198);
+    border-radius: 30px;
+    margin-top: 100px;
+    position: relative;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centralize verticalmente o conteúdo */
+    text-align: center; /* Centralize horizontalmente o conteúdo */
+    padding: 20px; /* Aumente o espaço interno para o texto */
+}
+
+.title h1 {
+    color: #FFFFFF;
+    font-size: 55px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+}
+
+.title h3 {
+    color: #FFFFFF;
+    font-size: 40px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+    margin-top: 10px; /* Ajuste a margem superior para o h3 */
+}
+
+p {
+    margin-top: 100px;
+    font-weight: bold;
+    color: #9400d3;
+    font-size: 10pt;
+    text-align: center;
+}
+
+a {
+    color: #701198;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9400d3;
+}
+
+hr {
+    background-color: #701198;
+    width: 35%;
+    height: 2px;
+    margin-top: 1px; /* Ajuste a margem superior conforme necessário */
+    margin-bottom: 10px; /* Ajuste a margem inferior conforme necessário */
+}

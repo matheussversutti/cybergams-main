@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+  }
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Imagens/imagem_fundo_controle.jpg');
+    background-image: url('../Imagens/imagem_fundo_controle.jpg');
+    background-size: cover;  /* Para evitar a repetição da imagem */
+}
+
+.container{
+    background-color: whitesmoke;
+    padding: 6px;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+  }
+
+  form {
+    position: absolute;
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+  }
+
+  .title {
+    background: linear-gradient(to right, #701198, #9400d3, #701198);
+    border-radius: 30px;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 35px;
+  }
+  
+    .title h1 {
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 39px;
+  }
+
+    input[type="text"], input[type="password"], input[type="date"] {
+
+    border: none;
+    margin-top: 25px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 100%;
+    box-shadow: 0 0 3px 0 #7c117c;
+
+  }
+
+  .buttons {
+    margin-top: 20px; 
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+  }
+  
+
+  button[type="submit"] {
+    color: white;
+    background: linear-gradient(to right, #701198, #9400d3, #701198);
+    border-radius: 35px;
+    flex: 1; 
+    border: none;
+    outline: none;
+    padding: 9px 0; 
+    font-size: 15px;
+    margin: 0 5px; 
+    cursor: pointer;
+  }
+
+
+i {
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+  }
+  
+
+  .iUser {
+    top: 24px;
+  }
+
+  .iEmail {
+    top: 87px;
+  }
+
+  .iDate{
+    top: 147px;
+  }
+
+  .iGrupo {
+    top: 208px;
+  }
+    
+  .iPassword {
+    top: 208px;
+  }
+
+  .iPassword2{
+    top: 268px;
+  }
